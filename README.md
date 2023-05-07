@@ -28,7 +28,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3RvPBHn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 I gained hands-on experience with network analysis using Wireshark, a widely-used network protocol analyzer. The primary objective was to install and configure Wireshark, perform network activities, and observe the generated traffic in Wireshark. The entire process was executed within the Azure environment, utilizing two virtual machines (VM1 and VM2).
@@ -36,7 +36,7 @@ I gained hands-on experience with network analysis using Wireshark, a widely-use
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6wdotlb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 The installation and configuration of Wireshark on VM1 involved connecting to the virtual machine through Microsoft Remote Desktop. After downloading and installing Wireshark, I began capturing network traffic by selecting the Ethernet option. Throughout the lab, I applied various filters to focus on specific types of network traffic as needed.
@@ -44,7 +44,7 @@ The installation and configuration of Wireshark on VM1 involved connecting to th
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LFEnDg3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 The next phase of the project involved performing network activities and observing the resulting traffic in Wireshark. By utilizing PowerShell on VM1, I executed various network tasks, such as pinging VM2 and external sites, connecting to VM2 via SSH, renewing VM1's IP address, and conducting DNS lookups. Monitoring the traffic in Wireshark provided valuable insights into how these network activities generated different types of traffic.
@@ -52,7 +52,7 @@ The next phase of the project involved performing network activities and observi
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/75vM76Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 An essential aspect of the project was configuring Network Security Groups within the Azure Portal. I created a new inbound security rule for VM2 to deny ICMP traffic, simulating a real-life scenario where specific traffic types might be blocked for security reasons. After updating the rule to allow ICMP traffic, I observed the successful pinging between VM1 and VM2, demonstrating the impact of security configurations on network communication.
@@ -60,7 +60,7 @@ An essential aspect of the project was configuring Network Security Groups withi
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0zDtwkB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lastly, the lab enabled me to analyze various types of network traffic in Wireshark by applying different filters, such as ICMP, SSH, DHCP, DNS, UDP, and RDP. This exercise deepened my understanding of how each network protocol functions and how they interact within a networked environment.
@@ -68,7 +68,7 @@ Lastly, the lab enabled me to analyze various types of network traffic in Wiresh
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yYzsS1k.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Overall, this lab project was a valuable learning experience, reinforcing my understanding of network analysis, security configurations, and protocol interactions. By working with Wireshark and Azure, I gained practical skills that can be applied in various network administration and security roles.
